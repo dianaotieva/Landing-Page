@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100&family=Inter&display=swap');
+
+/*font-family: 'Chivo Mono', monospace;*/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container{
+   background-image: url(./images/Bitmap-mb.png);
+   box-shadow: inset 0 0 0 1000px rgba(18, 23, 37, 0.860);
+   width: 375px;
+   height: 667px;
+
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 120px;
+    padding-top: 62px;
+}
+
+
+.pod-text{
+
+    margin-left: 13.2px;
+    width: 65.65px;
+    height: 35.65px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 67.75px;
+    /* padding-left: 0; */
+}
+
+.title{
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #54E6AF;
+}
+
+.description{
+    width: 327px;
+    height: 100px;
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #C2CBE5;
+
+    padding-top: 16px;
+}
+
+.social{
+    
+    display: flex;
+    gap: 24px;
+    padding-top: 40px;
+    
+}
+.input-button{
+    display: none;
+}
+
+.input-button-mb{
+    margin-left: 24px;
+}
+.email{
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    border: none;
+    background: #2C344B;
+    text-align: left;
+    padding-left: 24px;
+    margin-top: 48px;
+    
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+
+.access{
+    margin-top: 16px;
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    background: #54E6AF;
+}
+
+::placeholder{
+    font-family: 'Chivo', sans-serif;
+    color: #b8bbc5;
+}
+
+.btnText{
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 28px;
+    color: #121725; 
+    
+    
+}
+
+.social-tab{
+    display: none;
+}
+
+.points-img{
+    display: none;
+}
+
+.points-img-tab{
+    display: none;
+}
+
+
+
+
+
+
+
+@media(min-width: 768px){
+    .container{
+        background-image: url(./images/Bitmap-tab.png ) ;
+        background-repeat: no-repeat;
+        background-position: right top;
+        box-shadow: none;
+        width: 768px;
+        height: 1024px;
+        background-color: #121725;
+        }
+
+    .logo-text{
+        padding-left: 39px;
+        padding-top: 50px;
+        }
+    .content{
+        align-items: flex-start;
+        background: #121725;
+        width: 635px;
+        height: 509px;
+        margin-top: 153px;
+        margin-left: 39px;
+        }
+
+    .title{
+        font-size: 48px;
+        line-height: 56px;
+        text-align: start;
+        }
+
+    .description{
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: start;
+        }
+
+    .social{
+        display: none;  
+    }
+
+    .input-button-mb{
+        display: none;
+    }
+
+    .input-button{
+        display: block;
+        position: relative;
+        margin-top: 40px;
+        width: 427px;
+        height: 56px;
+        border-radius: 28px;
+    }
+    .email-input-tab{
+        background: #2C344B;
+        width: 427px;
+        height: 56px;
+        border: 0;
+        border-radius: 28px;
+        border-top-style: none;
+    }
+
+    .email-input-tab::placeholder{
+        font-family: 'Chivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;   
+        padding-left: 32px;  
+        
+    }
+
+    .btn-tab{
+        overflow: visible;
+        position: absolute;
+        float: right;
+        border: 0;
+        top: 5px;
+        right: 7px;
+        cursor: pointer;
+        width: 162px;
+        height: 46px;
+        background: #54E6AF;
+        box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+        border-radius: 28px;
+        color: black;
+        
+    }
+    .social-tab{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 104px;
+        gap: 40px;
+        padding-top: 100px;
+        
+    }
+
+    .spotify-img{
+        width: 95.9px;
+        height: 28.91px;
+    }
+
+    .applePodcasts-img{
+        width: 78px;
+        height: 29px;
+    }
+
+    .googlePodcasts-img{
+        width: 125px;
+        height: 18px;
+    }
+
+    .pocketCasts-img{
+        width: 129px;
+        height: 26px;
+    }
+        
+    .points-img-tab{
+        display: block;
+        padding-top: 175px;
+    }
+
+    .points-img{
+        display: none;
+    }
+}
+
+
+@media(min-width: 1440px) {
+    .container{
+        background-image: url(./images/Bitmap-desc.png ) ;
+        background-position: right center;
+        padding-top: 50px;
+        width: 1440px;
+        height: 900;
+    }
+    .logo-text{
+        padding-left: 165px;
+        padding-top: 102px;
+    }
+
+    .content{
+        width: 723px;
+        height: 509px;
+        margin-top: 131px;
+        margin-left: 165px;
+    }
+    .title{
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .points-img{
+        display: block;
+        padding-left: 450px;
+        padding-bottom: 20x;
+    }
+
+    .points-img-tab{
+        display: none;
+    }
+    
+
+}
+
+
+
