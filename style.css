@@ -17,7 +17,7 @@ body{
 }
 
 .container{
-   background-image: url(./images/Bitmap-mb.png);
+   background-image: url(./Bitmap-mb.png);
    box-shadow: inset 0 0 0 1000px rgba(18, 23, 37, 0.860);
    width: 375px;
    height: 667px;
@@ -151,7 +151,7 @@ body{
 
 @media(min-width: 768px){
     .container{
-        background-image: url(./images/Bitmap-tab.png ) ;
+        background-image: url(./Bitmap-tab.png ) ;
         background-repeat: no-repeat;
         background-position: right top;
         box-shadow: none;
@@ -281,7 +281,7 @@ body{
 
 @media(min-width: 1440px) {
     .container{
-        background-image: url(./images/Bitmap-desc.png ) ;
+        background-image: url(./Bitmap-desc.png ) ;
         background-position: right center;
         padding-top: 50px;
         width: 1440px;
