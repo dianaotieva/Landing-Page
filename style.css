@@ -29,7 +29,7 @@ body{
     flex-direction: row;
     align-items: center;
     padding-left: 120px;
-    padding-top: 62px;
+    /* padding-top: 62px; */
 }
 
 
@@ -70,7 +70,7 @@ body{
     text-align: center;
     color: #C2CBE5;
 
-    padding-top: 16px;
+     
 }
 
 .social{
@@ -87,6 +87,7 @@ body{
 .input-button-mb{
     margin-left: 24px;
 }
+
 .email{
     width: 327px;
     height: 46px;
@@ -95,7 +96,7 @@ body{
     background: #2C344B;
     text-align: left;
     padding-left: 24px;
-    margin-top: 48px;
+    /* margin-top: 48px; */
     
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
@@ -106,7 +107,7 @@ body{
 
 
 .access{
-    margin-top: 16px;
+    /* margin-top: 16px; */
     width: 327px;
     height: 46px;
     border-radius: 28px;
@@ -156,7 +157,7 @@ body{
         background-position: right top;
         box-shadow: none;
         width: 768px;
-        height: 1024px;
+        /* height: 1024px; */
         background-color: #121725;
         }
 
@@ -285,7 +286,7 @@ body{
         background-position: right center;
         padding-top: 50px;
         width: 1440px;
-        height: 900;
+        /* height: 900; */
     }
     .logo-text{
         padding-left: 165px;
