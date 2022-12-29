@@ -29,7 +29,7 @@ body{
     flex-direction: row;
     align-items: center;
     padding-left: 120px;
-    /* padding-top: 62px; */
+    padding-top: 62px;
 }
 
 
@@ -45,7 +45,6 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 67.75px;
-    /* padding-left: 0; */
 }
 
 .title{
@@ -96,7 +95,7 @@ body{
     background: #2C344B;
     text-align: left;
     padding-left: 24px;
-    /* margin-top: 48px; */
+    margin-top: 48px;
     
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
@@ -107,7 +106,7 @@ body{
 
 
 .access{
-    /* margin-top: 16px; */
+    margin-top: 16px;
     width: 327px;
     height: 46px;
     border-radius: 28px;
@@ -157,7 +156,7 @@ body{
         background-position: right top;
         box-shadow: none;
         width: 768px;
-        /* height: 1024px; */
+        height: 1024px;
         background-color: #121725;
         }
 
@@ -165,6 +164,7 @@ body{
         padding-left: 39px;
         padding-top: 50px;
         }
+        
     .content{
         align-items: flex-start;
         background: #121725;
