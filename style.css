@@ -14,10 +14,12 @@ body{
    justify-content: center;
    align-items: center;
    height: 100vh;
+   /* overflow: hidden; */
 }
 
 .container{
-   background-image: url(Bitmap-mb.png);
+   background-image: url(Bitmap-mb.png );
+   background-size: 375px 667px;
    box-shadow: inset 0 0 0 1000px rgba(18, 23, 37, 0.860);
    width: 100%;
    height: 100%;
@@ -84,7 +86,9 @@ body{
 }
 
 .input-button-mb{
-    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .email{
@@ -152,6 +156,8 @@ body{
 @media(min-width: 768px){
     .container{
         background-image: url(Bitmap-tab.png ) ;
+        background-size: 491px 767px;
+;
         background-repeat: no-repeat;
         background-position: right top;
         box-shadow: none;
@@ -159,8 +165,8 @@ body{
         }
 
     .logo-text{
-        margin-left: 39px;
-        margin-top: 50px;
+        padding-left: 39px;
+        padding-top: 50px;
         }
         
     .content{
@@ -269,7 +275,8 @@ body{
         
     .points-img-tab{
         display: block;
-        padding-top: 175px;
+        margin-top: 75px;
+       
     }
 
     .points-img{
@@ -281,6 +288,7 @@ body{
 @media(min-width: 1440px) {
     .container{
         background-image: url(Bitmap-desc.png ) ;
+        background-size: 888px 640px;
         background-position: right center;
         padding-top: 50px;
         /* height: 900; */
@@ -304,7 +312,6 @@ body{
     .points-img{
         display: block;
         padding-left: 450px;
-        padding-bottom: 20x;
     }
 
     .points-img-tab{
