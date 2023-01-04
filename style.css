@@ -28,8 +28,8 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 120px;
-    padding-top: 62px;
+    margin-left: 120px;
+    margin-top: 62px;
 }
 
 
@@ -155,14 +155,12 @@ body{
         background-repeat: no-repeat;
         background-position: right top;
         box-shadow: none;
-        width: 768px;
-        height: 1024px;
         background-color: #121725;
         }
 
     .logo-text{
-        padding-left: 39px;
-        padding-top: 50px;
+        margin-left: 39px;
+        margin-top: 50px;
         }
         
     .content{
@@ -285,7 +283,6 @@ body{
         background-image: url(Bitmap-desc.png ) ;
         background-position: right center;
         padding-top: 50px;
-        width: 1440px;
         /* height: 900; */
     }
     .logo-text{
